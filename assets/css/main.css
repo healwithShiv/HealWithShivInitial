@@ -4222,3 +4222,11 @@ input, select, textarea {
 		}
 
 	}
+
+	/*Hems*/
+	/* Custom spacing for blog pages */
+.blog-page #header p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 5%;
+}
