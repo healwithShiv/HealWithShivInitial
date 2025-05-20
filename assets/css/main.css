@@ -237,6 +237,12 @@ input, select, textarea {
 				background-color: rgba(255, 255, 255, 0.075);
 			}
 
+			/* === Hems Custom Overrides - May-20-2025 === */
+			/*a.logo {
+				border-bottom: none;
+			  }*/
+			  
+	
 	strong, b {
 		color: #ffffff;
 		font-weight: 600;
@@ -3631,6 +3637,29 @@ input, select, textarea {
 			line-height: 2;
 			text-transform: uppercase;
 		}
+
+		/*Hems - bg for image update 20-May-2025 - start */
+		#wrapper > header .logo {
+			box-sizing: content-box;
+			text-align: center;
+			opacity: 1;
+			margin: 0 0 1.3em 0;
+			display: inline-block; /* Ensures the logo is treated as a block for styling */
+    		background-color: #ffffff; /* Set the background color */
+    		padding: 10px; /* Add space around the logo */
+    		border-radius: 50%; /* Optional: Creates a circular background */
+    		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for depth */
+		}
+		  
+		  #wrapper > header .logo img {
+			width: 150px;  /* Adjust as needed */
+			height: auto;
+			opacity: 1;
+			vertical-align: middle;
+		}
+		/*Hems - bg for image update 20-May-2025* - end*/
+		  
+		  
 
 	@media screen and (max-width: 1280px) {
 
